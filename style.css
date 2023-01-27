@@ -1,0 +1,98 @@
+/* Add font style by importing */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+/* CSS property for whole html*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-center{
+    text-align: center;
+    color: blueviolet;
+}
+
+.button{
+    width: 5vw;
+    height: 9vh;
+    font-size: 2.5rem;
+    border: 2px solid #3C6255;
+    border-radius: 15%;
+    cursor: pointer;
+    background-color: #3C6255;
+    color: white;
+    box-shadow: 0 0 4px 3px grey;
+    margin: 6px 7px;
+}
+
+.button:hover{
+    background-color: #A6BB8D;
+}
+
+/* .bg-red{
+    background-color: red;
+} */
+
+.flex-box{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    /* position: relative; */
+    /* margin-left: 30vw;
+    margin-top: 9vh; */
+    background-color: #B9F3FC;
+    height: 100vh;
+    width: 100%;
+}
+
+.cal{
+    background-color: #3C6255;
+    border-radius: 13px;
+    padding: 16px;
+}
+
+.row{
+    margin: 3px 2px;
+    /* margin-bottom: 8px; */
+}
+
+#input{
+    border: none;
+    /* border-radius: 6px; */
+    height: 2.5vh;
+    background-color: #3C6255;
+    color: white;
+    height: 9vh;
+    width: 22vw;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    font-size: 5.5rem;
+    
+}
+
+
+.button1{
+    width: 11vw;
+    height: 9vh;
+    font-size: 2.5rem;
+    border: 2px solid #3C6255;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #3C6255;
+    color: white;
+    box-shadow: 0 0 4px 3px grey;
+    margin: 6px 7px;
+}
+
+h2{
+    background-color: #B9F3FC;
+    text-align:right;
+}
+
